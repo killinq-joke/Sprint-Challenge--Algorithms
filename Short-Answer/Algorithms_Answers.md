@@ -42,5 +42,7 @@ def func(n):
             return mid + 1
         else:
             mid becomes n + mid
+            func(mid)
+            
 
 
