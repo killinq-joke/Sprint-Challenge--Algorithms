@@ -12,7 +12,7 @@ def count_th(word):
     if "th" in word:
         count += 1
         count += count_th(word.replace('th', 'ooo', 1))
-        return count 
+        return count
     else:
         return count
 

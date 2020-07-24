@@ -41,8 +41,7 @@ def func(n):
         if egg breaks at mid + 1:
             return mid + 1
         else:
-            mid becomes n + mid
-            func(mid)
+            func(n + mid)
             
 
 
