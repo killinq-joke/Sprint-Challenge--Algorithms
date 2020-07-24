@@ -29,4 +29,11 @@ This function considering bunnies >= 0 is an O(n) else it is an O(infinite) whic
 
 ## Exercise II
 
+mid = n // 2
+throw and egg at mid
+if it breaks:
+    mid becomes mid // 2
+else (doesn't break):
+    mid becomes mid + mid // 2
+
 
