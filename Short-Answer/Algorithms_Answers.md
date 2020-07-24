@@ -2,7 +2,7 @@
 
 ## Exercise I
 
-a)
+a) while a < n * n * n
 
 
 b)
