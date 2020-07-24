@@ -38,6 +38,9 @@ def func(n):
             func(mid)
         
     else (doesn't break):
-        mid becomes mid + mid // 2
+        if egg breaks at mid + 1:
+            return mid + 1
+        else:
+            mid becomes n + mid
 
 
